@@ -1,4 +1,4 @@
-package appsecb;
+package Banking;
 
 import java.util.Scanner;
 
