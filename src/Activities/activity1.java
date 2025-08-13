@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package baga;
+package Activities;
 
 
 import java.util.Scanner;
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author PC1
  */
-public class Baga {
+public class activity1 {
 
     /**
      * @param args the command line arguments
