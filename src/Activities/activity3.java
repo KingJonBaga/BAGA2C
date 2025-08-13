@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Activities;
 
-/**
- *
- * @author PC1
- */
+import java.util.Scanner;
+
 public class activity3 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        if (num == 0) {
+            System.out.println("Inputted number Zero");
+        } else if (num > 0) {
+            System.out.println(num + " is a positive number");
+        } else {
+            System.out.println(num + " is a negative number");
+        }
+
+        scanner.close();
+    }
 }
